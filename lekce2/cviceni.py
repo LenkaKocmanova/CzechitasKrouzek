@@ -21,7 +21,7 @@ if (dotaz == 'ano'):
 else:
     instruktor = False
 
-if((stipac and uterac and instruktor) or (not stipac and not uterac and instruktor)):
+if((stipac and uterac and instruktor) or (not uterac and instruktor)):
     print('No a je to!')
 else:
     print('Aaaa bum!')
