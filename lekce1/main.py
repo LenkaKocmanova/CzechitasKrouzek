@@ -2,7 +2,7 @@ hlaska = ("Už nikdy nebudu koukat na anime.")
 #hlaska = hlaska + " " + hlaska + " " + hlaska
 hlaska = (hlaska + " ") *3
 print(hlaska)
-
+##################
 from datetime import datetime
 rok = datetime.now().year
 
