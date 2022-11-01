@@ -11,13 +11,13 @@ destinace = input('Zadej svoje navštívené destinace oddělené čárkou: ')
 destinace = destinace.split(', ')
 i = 0
 while i < len(destinace):
-	j = i + 1
-	while j < len(destinace):
-		if destinace[i] == destinace[j]:
-			destinace.pop(j)
-		else:
-			j += 1
-	i += 1
+    j = i + 1
+    while j < len(destinace):
+        if destinace[i] == destinace[j]:
+            destinace.pop(j)
+        else:
+            j += 1
+    i += 1
 
 print("Protrajdal jsi", len(destinace), "destinace:")
 print(", ".join(destinace))
